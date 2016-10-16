@@ -1,0 +1,92 @@
+/*@font-face {
+    font-family: copperplate;
+    src: url('font/copperplate/copperplate.ttf');
+}*/
+
+* {
+  box-sizing: border-box; 
+  }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 400;
+  font-display: optional;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  }
+
+html {
+  overflow: hidden; 
+}
+
+body {
+    -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-x: hidden;
+  background-image: url('../img/splash.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  }
+
+/*for splash page*/
+.splash .splash__title1 {
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 1); /*text*/
+  text-align: center;
+  animation-iteration-count: 1;
+  margin-top: 200pt;
+  font-family: 'Roboto';
+  font-size: 60pt;
+  font-weight: 600;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/*for splash page*/
+.splash .splash__title {
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 1); /*text*/
+  font-family:'Roboto';
+  text-align: center;
+  font-size: 40pt;
+  font-weight: 400;
+}
+
+ 

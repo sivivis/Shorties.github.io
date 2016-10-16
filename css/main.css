@@ -1,0 +1,64 @@
+/*@font-face {
+    font-family: copperplate;
+    src: url('font/copperplate/copperplate.ttf');
+}*/
+
+.header{
+	text-align: center;
+}
+
+#bt_back{
+	cursor: pointer;
+	height: auto;
+	width: 8%;
+	left: 1%;
+	position: fixed;
+}
+
+.btn {
+	font-family: 'Roboto';
+	font-size: 20pt;
+	font-weight: 400;
+}
+
+#bt_news,#bt_yourThought,#bt_qr{
+	width: 85%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media(min-width:768px) {
+/*
+	#bt_news,#bt_yourThought,#bt_qr{
+		margin-bottom: 0;
+		margin-bottom: 15%;
+	}
+*/
+}
+@media(min-width:320px) {
+/*
+	#bt_news,#bt_yourThought,#bt_qr{
+		margin-bottom: 0;
+		margin-bottom: 20%;
+	}
+*/
+
+}
+
+/*to fix later - position of the camera/canvas/button*/
+.load_continer {
+	text-align: center;
+}
+
+#snap {
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#canvas {
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
